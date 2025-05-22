@@ -1,3 +1,5 @@
+# application.yml in Git repo
+
 message: Hello, this is Yexingyu's config!
 author: yexingyu
 
@@ -5,36 +7,47 @@ author: yexingyu
 
 spring:
   profiles:
-    active: product  # 默认激活dev环境
+    active: product  # 生产环境默认激活product
+
 ---
+
 spring:
   profiles: dev
   application:
-    name: mldnconfig-test-dev
+    name: mldncloud-config-client
+  datasource:
+    url: jdbc:mariadb://localhost:3306/dept8001
+    username: root
+    password: 123456
+  jpa:
+    show-sql: true
+  server:
+    port: 8101
+
 ---
+
 spring:
   profiles: product
   application:
     name: mldncloud-config-client
   datasource:
-    type: com.alibaba.druid.pool.DruidDataSource  # 配置数据源类型
-    url: jdbc:mariadb://localhost:3306/dept8001    # 数据库的连接地址
-    driver-class-name: org.mariadb.jdbc.Driver    # 驱动程序
-    username: root                                # 用户名
-    password: 123456                          # 密码
-    dbcp2: # 使用dbcp2前缀配置连接池
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mariadb://localhost:3306/dept8001
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: 123456
+    dbcp2:
       initial-size: 1
       min-idle: 1
       max-total: 1
       max-wait-millis: 200
       test-while-idle: true
-      validation-query: SELECT 1  # 确保空闲连接有效
-      time-between-eviction-runs-millis: 60000  # 空闲连接检查间隔（毫秒）
-      min-evictable-idle-time-millis: 300000  # 最小空闲时间（毫秒）
+      validation-query: SELECT 1
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
       test-on-borrow: false
       test-on-return: false
   jpa:
     show-sql: true
-server:
-  port: 8102
-    
+  server:
+    port: 8102
