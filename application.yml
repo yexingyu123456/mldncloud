@@ -5,7 +5,7 @@ author: yexingyu
 
 spring:
   profiles:
-    active: dev  # 默认激活dev环境
+    active: product  # 默认激活dev环境
 ---
 spring:
   profiles: dev
