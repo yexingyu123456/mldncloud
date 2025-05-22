@@ -7,7 +7,7 @@ spring:
     url: jdbc:mariadb://localhost:3306/dept8001    # 数据库的连接地址
     driver-class-name: org.mariadb.jdbc.Driver    # 驱动程序
     username: root                                # 用户名
-    password: "{cipher}AQBNFN/+uOGCdov4QGzYvX1x4m9S0/vXbcPaGFlFPCiLR+XtUJTj78XEbyPjz1miV81vEOYUIjfFGqGTFI00NUVRKSr7PWPTSRecF84UvTqwyb0qm3O9pW9r8Aqq9yYZaVVrNo1oTe8WRtWTubeQTS1z8fyXs2sbc9LAuOrF0k8SNOIjtmeFoKi7s+1m2wY/DA0EhaBSeKxTt4v0fvArpuzX82awmTARDDuOGADlw55JlcTEQE5CoxU1LYgGOMHnNPUrbju/YJlg0A6pEgHBkwVHsn7c0sNe48+fB0A3t/WSaSdVlFN4BtQmIGLiWWYWp4UGEBxioW62jLU7bzfMzNQZcqZkBjfjf7+4W4828Mi35kmoZxGaU9d8eZzwp4D8mdY="                          # 密码
+    password: '{cipher}123456'                  
     dbcp2: # 使用dbcp2前缀配置连接池
       initial-size: 1
       min-idle: 1
