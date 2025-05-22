@@ -1,0 +1,4 @@
+spring:
+  cloud:
+    config:
+      password: "{cipher}AQBe13v61Mk14EErXT2CwVCaAUbrxCVyxvLAjr7lNRqZP7t0Cn/rOQhGRLTNdvLf63bo7kRZbfB1ySJoMlVEUUfB+DwJoEcXCQgAH/oaO8d23dYDzDQTC5uFRjbwoULaNvj5tNevRtbclmRfa7U1HOw2cdC780j77SxpX0gT+GbT3ELauNWRk/Gx3HopjYBHpTHFaiMir31TV/9ZX6+zhLgKQtBYN6lTECjUr0wN/4gGvUcxprmxr8u3I6gLdrm7NJ/kzZg6dsgYF29yPNcXSAT5FtkBhgjeQy8YH/RKHrxDv+fShZgKDGEFMdiNEm+M43RE3f4YDt7JO+Ipln/I/csB2pTV3BwtsNb2I97Vyc81HtGr6Rl9mhq8wzyqxD4/IaM="
