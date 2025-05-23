@@ -35,7 +35,7 @@ spring:
     url: jdbc:mariadb://localhost:3306/dept8001
     driver-class-name: org.mariadb.jdbc.Driver
     username: root
-    password: '{cipher}123456'
+    password: '{cipher}AQBw4oW8/gJdtMye/zBo/OSaHIWnOAEo48rJhzA+EUJ2tD+J3XiVQKbMz5pccT9QmP7giWv4k6kLpZxk4cN86J9e/A/2Ml7CQKu4qldIHesAzhZ8GKYHMjJEXKG1SvYPcCD2Hb+FE6O11YprsLxwU09CRiiHoLcfiPqmN8J7Lg4CvosPg5h+6GZw6V/dwKOC6bEN9DdGr2ph+/dVX3wD5cSYAkJkiWIamAA2dCLh2p84l5AyVafgRMXL5QvBZL/GPQQibWMrtj3fK63rtRGGO1J1UCV+H4NXCexCa9Mx+ynDyt+fpttyBWIVmGi5rAZFf6ToId2lxxdlGQU656wSfAM2qtzLjp0e43ZytHFfckxouS+mj4OTzuCw2HWMzPCvt2M='
     dbcp2:
       initial-size: 1
       min-idle: 1
